@@ -1,0 +1,1 @@
+function f = Ex1_4_func(x,c0,K1,K2)% Evaluation of set of equations for example 1.4% c0(1) = ca0 / c0(2) = cb0 / c0(3) = cc0 / c0(4) = cd0ca = c0(1) - 2*x(1)*c0(2) - x(2)*c0(4);cb = (1 - x(1))*c0(2);cc = c0(3) + x(1)*c0(2) + x(2)*c0(4);cd = (1 - x(2))*c0(4);f(1) = cc / ca^2 / cb - K1;f(2) = cc / ca / cd - K2;f = f';	% Make it a column vector.

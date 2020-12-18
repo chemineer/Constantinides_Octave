@@ -1,0 +1,1 @@
+function y = Colebrookg(f, Re, e)% Colebrookg.M% This function evaluates the value of the rearranged Colebrook% equation to be solved by x=g(x) method.y = 1/(.86*log(e/3.7+2.51/Re/sqrt(f)))^2;

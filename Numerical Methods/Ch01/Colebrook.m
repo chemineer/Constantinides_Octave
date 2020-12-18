@@ -1,0 +1,1 @@
+function y = Colebrook(f, Re, e)% Colebrook.M% This function evaluates the value of Colebrook equation to be% solved by the linear interpolation or the Newton-Raphson method.y = 1/sqrt(f)+.86*log(e/3.7+2.51/Re/sqrt(f));
