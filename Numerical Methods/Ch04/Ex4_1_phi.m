@@ -1,0 +1,1 @@
+function phif = Ex4_1_phi(x , x0)% Function Ex4_1_phi.m% Nonlinear equation for calculation of phi in Example 4.1.phif=1/(1+1/(sqrt(pi)*(1+erf(x))*x*exp(x^2)))-x0;

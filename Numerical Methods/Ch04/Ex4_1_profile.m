@@ -1,0 +1,1 @@
+function x = Ex4_1_profile(z,t,x0,D,phi)% Function Ex4_1_profile.m% Concentration profile evaluation in Example 4.1.Z = z./sqrt(4*D*t);					% Dimensionless axial positionX = (1-erf(Z-phi))/(1+erf(phi));	% Dimensionless concentrationx = x0*X;								% Mole fraction

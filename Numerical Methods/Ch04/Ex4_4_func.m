@@ -1,0 +1,1 @@
+function y = Ex4_4_func(x)% Function Ex4_4_func.m% Function to be integrated in Example 4.4.y = exp(-x^3);
