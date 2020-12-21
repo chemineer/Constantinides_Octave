@@ -1,0 +1,1 @@
+function p = stud(t, nu)% Student's t-distributionp = 1/sqrt(nu*pi) * gamma((nu+1)/2)/gamma(nu/2) * ...   (1 + t.^2/nu).^(-(nu + 1)/2);

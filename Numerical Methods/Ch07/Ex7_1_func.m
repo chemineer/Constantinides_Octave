@@ -1,0 +1,1 @@
+function dy = Ex7_1_func(x,y,flag,b)% Function Ex7_1_func.M% Model equations for Example 7.1.dy = [b(1)*y(1)*(1-y(1)/b(2));   b(3)*y(1)-b(4)*y(2)];
