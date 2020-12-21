@@ -1,0 +1,1 @@
+function f = Ex6_2_func(ca,x,t,k)% Function Ex6_2_func.M% This function introduces the reaction rate equation% used in Example 6-2.f = -k*ca;
