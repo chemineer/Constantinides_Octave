@@ -1,0 +1,1 @@
+function f = Ex5_4_func(eta,y,n,lambda)% Function Ex5_4_func.M% This function introduces the set of ordinary differential% equations used in Example 5.4.f(1) = -(y(1)/eta+(1+lambda^2*y(1)^2)^((1-n)/2))/ ...   (1-(1-n)*lambda^2*y(1)/(1+lambda^2*y(1)^2));f(2) = y(1);f = f';	% Make it a column vector
